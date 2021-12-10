@@ -72,7 +72,7 @@ function assis_explanation_animation_btn() {
                 height: "0px",
                 borderWidth: "0px",
                 padding: "0px"
-            },  function () {
+            }, 400, function () {
                 $("#explainBtn").removeData("executing");
             } );
         });
