@@ -88,6 +88,7 @@
     "grunt": "^1.4.1",
     "http-server": "^13.0.2",
     "lodash": "^4.17.20",
+    "mathjs": "^10.1.1",
     "merry": "^5.5.2",
     "nth-check": "^2.0.1",
     "Package": "0.0.1",

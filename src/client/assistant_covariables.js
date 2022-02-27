@@ -13,10 +13,6 @@ var margin_rgb = [];
 var density = [];
 var density_rgb = [];
 
-var severity = [];
-var severity_percentage = [];
-var severity_rgb = [];
-
 var family_history;
 var family_history_rgb = [];
 var personal_history;
@@ -124,22 +120,6 @@ function getMasses(data, currentlyActiveImageId) {
                     density_rgb.push(mass.density.color_rgb);
 
                     n_lesions++;
-
-                    var mass_severity = [];
-                    var mass_severity_percentage = [];
-                    var mass_severity_rgb = [];
-
-                    $.each(mass.handles, function (index, point) {
-                        if (!arrayContains(point.severity.level, mass_severity)) {
-                            mass_severity.push(point.severity.level);
-                            mass_severity_percentage.push(point.severity.percentage)
-                            mass_severity_rgb.push(point.severity.color_rgb);
-                        }
-                    })
-
-                    severity.push(mass_severity);
-                    severity_percentage.push(mass_severity_percentage);
-                    severity_rgb.push(mass_severity_rgb);
                 })
             }
 
@@ -340,10 +320,6 @@ function resetCovariables() {
     margin_rgb = [];
     density = [];
     density_rgb = [];
-
-    severity = [];
-    severity_percentage = [];
-    severity_rgb = [];
 
     n_lesions = 0;
 }

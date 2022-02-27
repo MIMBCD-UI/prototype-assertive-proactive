@@ -4,11 +4,19 @@
         "modality": "MG",
         "familyHistory": {
             "value": false,
-            "color_rgb": [0,158,15]
+            "color_rgb": [
+                0,
+                158,
+                15
+            ]
         },
         "personalHistory": {
             "value": null,
-            "color_rgb":[0,158,15]
+            "color_rgb": [
+                0,
+                158,
+                15
+            ]
         },
         "stacks": [
             {
@@ -28,8 +36,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -47,8 +59,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -66,8 +82,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -85,8 +105,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -104,8 +128,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -123,8 +151,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -142,8 +174,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -161,8 +197,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -180,8 +220,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -199,8 +243,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -218,8 +266,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -237,8 +289,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -256,8 +312,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -275,8 +335,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -295,15 +359,27 @@
                         "active": false,
                         "shape": {
                             "type": "lobulated",
-                            "color_rgb": [255,153,0]
+                            "color_rgb": [
+                                255,
+                                153,
+                                0
+                            ]
                         },
                         "margin": {
                             "type": "microlobulated",
-                            "color_rgb": [241,194,50]
+                            "color_rgb": [
+                                241,
+                                194,
+                                50
+                            ]
                         },
                         "density": {
                             "type": "high",
-                            "color_rgb": [207,42,39]
+                            "color_rgb": [
+                                207,
+                                42,
+                                39
+                            ]
                         },
                         "handles": [
                             {
@@ -312,11 +388,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 359.0548369013546,
@@ -330,11 +401,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 358.16090179236005,
@@ -348,11 +414,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 363.52451244632715,
@@ -366,11 +427,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 390.3425657161628,
@@ -384,11 +440,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 422.0772620854683,
@@ -402,11 +453,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 452.0240882367848,
@@ -420,11 +466,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 471.69066063466425,
@@ -438,11 +479,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 490.9102654780464,
@@ -456,11 +492,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 515.4934809753959,
@@ -474,11 +505,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 523.9858645108437,
@@ -492,11 +518,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 530.6903778283026,
@@ -510,11 +531,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 542.3115342452314,
@@ -528,11 +544,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 568.6826199605698,
@@ -546,11 +557,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 585.2204194769685,
@@ -564,11 +570,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 566.4477821880835,
@@ -582,11 +583,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 575.834100832526,
@@ -600,11 +596,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 598.6294461118863,
@@ -618,11 +609,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 605.7809269838424,
@@ -636,11 +622,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 588.7961599129466,
@@ -654,11 +635,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 557.5084310981383,
@@ -672,11 +648,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 542.3115342452314,
@@ -690,11 +661,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 531.5843129372972,
@@ -708,11 +674,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 509.23593521243413,
@@ -726,11 +687,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 466.3270499806971,
@@ -744,11 +700,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 437.72112649287243,
@@ -762,11 +713,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 392.1304359341518,
@@ -780,11 +726,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 352.35032358389566,
@@ -798,11 +739,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 360.39573956484634,
@@ -816,11 +752,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 325.9792378685573,
@@ -834,11 +765,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 331.78981607702167,
@@ -852,11 +778,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 319.27472455109836,
@@ -870,11 +791,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 335.812524067497,
@@ -888,11 +804,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 328.66104319554086,
@@ -906,11 +817,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": true,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 335.812524067497,
@@ -924,12 +830,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": true,
-                                
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "100%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 355.4790964653765,
@@ -968,8 +868,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -987,8 +891,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1006,8 +914,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1025,8 +937,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1044,8 +960,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1063,8 +983,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1082,8 +1006,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1101,8 +1029,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1120,8 +1052,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1139,8 +1075,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1158,8 +1098,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1177,8 +1121,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1209,8 +1157,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1228,8 +1180,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1247,8 +1203,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1266,8 +1226,12 @@
                         "distribution": [
                             "regional"
                         ],
-                        "color_rgb":[
-                            [255,255,0]
+                        "color_rgb": [
+                            [
+                                255,
+                                255,
+                                0
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1285,8 +1249,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1304,8 +1272,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1323,8 +1295,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1342,8 +1318,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1361,8 +1341,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1380,8 +1364,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1399,8 +1387,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -1419,15 +1411,27 @@
                         "active": false,
                         "shape": {
                             "type": "lobulated",
-                            "color_rgb": [255,153,0]
+                            "color_rgb": [
+                                255,
+                                153,
+                                0
+                            ]
                         },
                         "margin": {
                             "type": "indistinct",
-                            "color_rgb": [255,153,0]
+                            "color_rgb": [
+                                255,
+                                153,
+                                0
+                            ]
                         },
                         "density": {
                             "type": "",
-                            "color_rgb": [-1,-1,-1]
+                            "color_rgb": [
+                                -1,
+                                -1,
+                                -1
+                            ]
                         },
                         "handles": [
                             {
@@ -1436,11 +1440,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 268.1017583129628,
@@ -1454,11 +1453,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 276.43571646819663,
@@ -1472,11 +1466,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 300.8819937235493,
@@ -1490,11 +1479,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 306.4379658270385,
@@ -1508,11 +1492,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 318.66110445471486,
@@ -1526,11 +1505,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 328.1062570306466,
@@ -1544,11 +1518,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 331.995437503089,
@@ -1562,11 +1531,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 340.8849928686718,
@@ -1580,11 +1544,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 366.99806175507126,
@@ -1598,11 +1557,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"medium",
-                                    "percentage": "52%",
-                                    "color_rgb": [249,141,0]
-                                },
                                 "lines": [
                                     {
                                         "x": 388.11075574833035,
@@ -1616,11 +1570,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 407.00106090019375,
@@ -1634,11 +1583,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 432.55853257624426,
@@ -1652,11 +1596,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 454.2268237798522,
@@ -1670,11 +1609,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 469.2279484592732,
@@ -1688,11 +1622,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 478.6731010352049,
@@ -1706,11 +1635,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 483.6734759283453,
@@ -1724,11 +1648,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 486.4514619800899,
@@ -1742,11 +1661,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 483.1178787179963,
@@ -1760,11 +1674,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 493.6742257146259,
@@ -1778,11 +1687,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 508.67535039404675,
@@ -1796,11 +1700,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 517.5649057596296,
@@ -1814,11 +1713,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 526.4544611252123,
@@ -1832,11 +1726,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 533.6772248597483,
@@ -1850,11 +1739,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 541.4555858046333,
@@ -1868,11 +1752,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 531.4548360183527,
@@ -1886,11 +1765,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 499.23019781811513,
@@ -1904,11 +1778,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 481.45108708694954,
@@ -1922,11 +1791,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 468.6723512489243,
@@ -1940,11 +1804,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 450.33764330740985,
@@ -1958,11 +1817,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 453.11562935915447,
@@ -1976,11 +1830,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 438.1145046797335,
@@ -1994,11 +1843,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 408.6678525312405,
@@ -2012,11 +1856,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 384.22157527588786,
@@ -2030,11 +1869,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 370.8872422275137,
@@ -2048,11 +1882,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 352.5525342859992,
@@ -2066,11 +1895,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 336.44021518588045,
@@ -2084,11 +1908,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 308.66035466843425,
@@ -2102,11 +1921,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 296.9928132511068,
@@ -2120,11 +1934,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 266.434966681916,
@@ -2138,11 +1947,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 265.32377226121815,
@@ -2156,11 +1960,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": false,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 262.54578620947353,
@@ -2174,11 +1973,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": true,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 259.7678001577289,
@@ -2192,11 +1986,6 @@
                                 "highlight": true,
                                 "active": true,
                                 "lastFlag": true,
-                                "severity": {
-                                    "level":"high",
-                                    "percentage": "48%",
-                                    "color_rgb": [207,42,39]
-                                },
                                 "lines": [
                                     {
                                         "x": 251.43384200249506,
@@ -2235,8 +2024,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2254,8 +2047,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2273,8 +2070,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2292,8 +2093,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2311,8 +2116,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2330,8 +2139,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2349,8 +2162,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2368,8 +2185,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2387,8 +2208,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2406,8 +2231,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2425,8 +2254,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2444,8 +2277,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
@@ -2463,8 +2300,12 @@
                         "distribution": [
                             "diffuse"
                         ],
-                        "color_rgb":[
-                            [0,158,15]
+                        "color_rgb": [
+                            [
+                                0,
+                                158,
+                                15
+                            ]
                         ],
                         "handles": {
                             "end": {
