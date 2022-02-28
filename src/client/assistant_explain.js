@@ -36,16 +36,12 @@ function disableXAITools() {
 
 function explain_assistant_rerult(button = true) {
 
-  // if ($("#explainBtn").data("executing")) return;
-
-  // $("#explainBtn").data("executing", true);
-
   var stack = toolData.data[0];
   var currentlyActiveImageURL = stack.imageIds[0];          // gives the active image of the system (not the json)
   var currentlyActiveImageId = currentlyActiveImageURL.slice(35, -5) // only the image id itself from the sys (not the json file)
   var openPatient = $('#complete-tab > a').attr("href"); // this will fetch the id of open patien with extra 2 latters before actual id
   var openPatientId = openPatient.slice(2) + '.json'      // slice '#x' and add ".json" at the end
-  var openPatientUrl = '../../dataset/' + openPatientId;  // full URL of open patient
+  var openPatientUrl = '../common/findings/' + openPatientId;  // full URL of open patient
 
   circles = {};
 
@@ -59,7 +55,6 @@ function explain_assistant_rerult(button = true) {
     global_var_explain = false;
     disableXAITools();
 
-    //assis_explanation_animation_btn();
   }
   else {
     global_var_explain = true;
@@ -76,7 +71,6 @@ function explain_assistant_rerult(button = true) {
       bounding_box(openPatientUrl, list_image_ID_viewPort[i], canvas[i], Math.max(list_zoom_viewPort[i], 0.1), button, list_places[i]);
     }
 
-    //assis_explanation_animation_btn();
   }
 }
 
