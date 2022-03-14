@@ -118,3 +118,6 @@ dataset/*
 
 # Findings Information
 src/common/findings/*
+
+# BIRADS Information
+src/common/outputs/*
