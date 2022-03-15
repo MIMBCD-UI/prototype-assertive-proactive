@@ -86,7 +86,7 @@ function getMicrocalcifications(data, currentlyActiveImageId) {
         var openImageId = item.imageIds[0].slice(35, -5);
 
         if (openImageId.includes(currentlyActiveImageId)) {
-            if(item.probe != null)
+            if (item.probe != null)
                 $.each(item.probe, function (index, probe) {
                     nofindings_microcalcifications = true;
                     $.each(probe.distribution, function (index, distribution) {
@@ -132,11 +132,16 @@ function getMasses(data, currentlyActiveImageId) {
 }
 
 function getHistory(data) {
-    family_history = data.rawData.familyHistory.value;
-    family_history_rgb = data.rawData.familyHistory.color_rgb;
+    if (data.rawData.familyHistory != null) {
+        family_history = data.rawData.familyHistory.value;
+        family_history_rgb = data.rawData.familyHistory.color_rgb;
+    }
 
-    personal_history = data.rawData.personalHistory.value;
-    personal_history_rgb = data.rawData.personalHistory.color_rgb;
+    if (data.rawData.personalHistory != null) {
+        personal_history = data.rawData.personalHistory.value;
+        personal_history_rgb = data.rawData.personalHistory.color_rgb;
+    }
+
 }
 
 function buildMessage() {
@@ -163,31 +168,31 @@ function buildMessage() {
         let msg19 = messageText.assisCovariable[0].covariable_019;
 
         let n_lesions_msg = "";
-        if(n_lesions == 0)
-            n_lesions_msg = msg01 + textColored(msg14 + msg02[2], purple,0, -1);
+        if (n_lesions == 0)
+            n_lesions_msg = msg01 + textColored(msg14 + msg02[2], purple, 0, -1);
         else
-            n_lesions_msg = msg01 + textColored(n_lesions, blue,0, 0) + msg02[pluralOrSingular(n_lesions)];
-            
+            n_lesions_msg = msg01 + textColored(n_lesions, blue, 0, 0) + msg02[pluralOrSingular(n_lesions)];
+
 
         var n_lesion = 0;
         var lesions_msg = "";
         $.each(microcalcifications, function (index, microcalcification) {
 
             if (n_lesion == 0)
-                var lesion_msg = msg03[n_lesion][pluralOrSingular(n_lesions)] + msg04[1] + msg05[1] + msg06 + textColored(microcalcification, microcalcifications_rgb[index], 0,getLesionValue(microcalcifications_rgb[index])) + msg07[3];
+                var lesion_msg = msg03[n_lesion][pluralOrSingular(n_lesions)] + msg04[1] + msg05[1] + msg06 + textColored(microcalcification, microcalcifications_rgb[index], 0, getLesionValue(microcalcifications_rgb[index])) + msg07[3];
             else
-                var lesion_msg = msg03[n_lesion] + msg04[1] + msg05[1] + msg06 + textColored(microcalcification, microcalcifications_rgb[index], 0,getLesionValue(microcalcifications_rgb[index])) + msg07[3];
+                var lesion_msg = msg03[n_lesion] + msg04[1] + msg05[1] + msg06 + textColored(microcalcification, microcalcifications_rgb[index], 0, getLesionValue(microcalcifications_rgb[index])) + msg07[3];
 
             lesions_msg += lesion_msg;
             n_lesion++;
         })
 
-        if(nofindings_microcalcifications != null && nofindings_microcalcifications){
+        if (nofindings_microcalcifications != null && nofindings_microcalcifications) {
             if (n_lesion == 0)
                 var lesion_msg = msg03[n_lesion][pluralOrSingular(n_lesions)];
             else
                 var lesion_msg = msg03[n_lesion];
-            
+
             lesion_msg += msg04[1] + msg05[1] + msg06 + textColored(msg18, purple, 0, -1);
 
             lesions_msg += lesion_msg;
@@ -205,17 +210,17 @@ function buildMessage() {
 
             var mass_type_lesions = [];
             if (shape[index] != "")
-                mass_type_lesions.push(textColored(shape[index] + msg07[0], shape_rgb[index], 0,getLesionValue(shape_rgb[index])))
+                mass_type_lesions.push(textColored(shape[index] + msg07[0], shape_rgb[index], 0, getLesionValue(shape_rgb[index])))
             if (margin[index] != "")
-                mass_type_lesions.push(textColored(margin[index] + msg07[1], margin_rgb[index], 0,getLesionValue(margin_rgb[index])))
+                mass_type_lesions.push(textColored(margin[index] + msg07[1], margin_rgb[index], 0, getLesionValue(margin_rgb[index])))
             if (density[index] != "")
-                mass_type_lesions.push(textColored(density[index] + msg07[2], density_rgb[index], 0,getLesionValue(density_rgb[index])))
+                mass_type_lesions.push(textColored(density[index] + msg07[2], density_rgb[index], 0, getLesionValue(density_rgb[index])))
 
             if (mass_type_lesions.length == 1)
                 lesion_msg += mass_type_lesions[0];
             else if (mass_type_lesions.length == 2)
                 lesion_msg += mass_type_lesions[0] + msg08[1] + mass_type_lesions[1];
-            else if(mass_type_lesions.length == 3)
+            else if (mass_type_lesions.length == 3)
                 lesion_msg += mass_type_lesions[0] + msg08[0] + mass_type_lesions[1] + msg08[1] + mass_type_lesions[2];
             else
                 lesion_msg += textColored(msg18, purple, 0, -1);
@@ -226,27 +231,27 @@ function buildMessage() {
 
         let history_msg = "";
 
-        if(family_history == null || personal_history == null){
+        if (family_history == null || personal_history == null) {
             history_msg += msg17 + textColored(msg18, purple, 0, -1) + msg19;
-            if(family_history == null){
+            if (family_history == null) {
                 history_msg += textColored(msg10, purple, 0, -1);
-                if(personal_history == null)
+                if (personal_history == null)
                     history_msg += msg13 + textColored(msg11, purple, 0, -1);
             }
-            else if(personal_history == null)
-                history_msg += textColored(msg11, purple, 0, -1);    
+            else if (personal_history == null)
+                history_msg += textColored(msg11, purple, 0, -1);
         }
 
         if ((!family_history && family_history != null) || (!personal_history && personal_history != null)) {
             history_msg += msg09;
 
             if ((!family_history && family_history != null) && (!personal_history && personal_history != null))
-                history_msg += msg12 + textColored(msg10, family_history_rgb,0, getLesionValue(personal_history_rgb)) + msg13 + textColored(msg11, personal_history_rgb, 0,getLesionValue(personal_history_rgb));
+                history_msg += msg12 + textColored(msg10, family_history_rgb, 0, getLesionValue(personal_history_rgb)) + msg13 + textColored(msg11, personal_history_rgb, 0, getLesionValue(personal_history_rgb));
             else {
                 if ((!family_history && family_history != null))
-                    history_msg += msg12 + textColored(msg10, family_history_rgb, 0,getLesionValue(family_history_rgb));
+                    history_msg += msg12 + textColored(msg10, family_history_rgb, 0, getLesionValue(family_history_rgb));
                 else if ((!personal_history && personal_history != null))
-                    history_msg += msg12 + textColored(msg11, personal_history_rgb, 0,getLesionValue(personal_history_rgb));
+                    history_msg += msg12 + textColored(msg11, personal_history_rgb, 0, getLesionValue(personal_history_rgb));
             }
 
         }
@@ -290,22 +295,22 @@ function hexToRgb(hex) {
         parseInt(result[1], 16),
         parseInt(result[2], 16),
         parseInt(result[3], 16)
-     ] : null;
+    ] : null;
 }
 
 function getLesionValue(color) {
     const equals = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-    if (equals(color,hexToRgb("#2B78E4")))
+    if (equals(color, hexToRgb("#2B78E4")))
         return 0;
-    if (equals(color,hexToRgb("#9900FF")))
+    if (equals(color, hexToRgb("#9900FF")))
         return -1;
-    if (equals(color,hexToRgb("#009E0F")))
+    if (equals(color, hexToRgb("#009E0F")))
         return 1;
     if (equals(color, hexToRgb("#FFFF00")))
         return 2;
     if (equals(color, hexToRgb("#FF9900")))
         return 4;
-    if (equals(color,hexToRgb("#CF2A27")))
+    if (equals(color, hexToRgb("#CF2A27")))
         return 5;
     return 3;
 
