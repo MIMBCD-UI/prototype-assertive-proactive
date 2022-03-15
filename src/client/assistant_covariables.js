@@ -69,9 +69,7 @@ function show_assistant_covariables() {
 
 
     }).error(function () {                                // alert for no json file availability.
-        if (button) {
-            alert("No information available for the current patient!");
-        }
+        buildMessage();
     })
 
 
