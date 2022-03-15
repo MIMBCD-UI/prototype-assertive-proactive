@@ -48,23 +48,17 @@ function show_assistant_covariables() {
     $.getJSON(openPatientUrl, function (data) {
 
 
-        //Get Message JSON
-        $.getJSON(messageUrl)
-            .done(function (messageText) {
+        //Get microcalcifications
+        getMicrocalcifications(data, currentlyActiveImageId);
 
-                //Get microcalcifications
-                getMicrocalcifications(data, currentlyActiveImageId);
+        //Get masses
+        getMasses(data, currentlyActiveImageId);
 
-                //Get masses
-                getMasses(data, currentlyActiveImageId);
+        //Get family and personal history
+        getHistory(data);
 
-                //Get family and personal history
-                getHistory(data);
-
-                //Build message
-                buildMessage();
-
-            })
+        //Build message
+        buildMessage();
 
 
 
