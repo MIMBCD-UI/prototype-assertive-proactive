@@ -120,7 +120,9 @@ $.getJSON(studyListFile, function(data) {
             }
             // Close Assistant block
             $('.assistant_block').css({display:'none'});
+            $('.assistant_block_covariables').css({display:'none'});
             assistant_animation_out();
+            
 
           });
 
@@ -230,6 +232,10 @@ function assistant_animation_in() {
 // Assistant Avatar Animation
 function assistant_animation_out() {
   $(".assistant_block").delay(1).animate({
+    opacity: '0',
+    right: '-150px'
+  });
+  $(".assistant_block_covariables").delay(1).animate({
     opacity: '0',
     right: '-150px'
   });
