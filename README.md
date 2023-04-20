@@ -45,7 +45,7 @@ cd dicom-server/
 npm install
 ```
 
-1.2.2. You can now **Run** the project, just follow the [next section](https://github.com/MIMBCD-UI/prototype-assertive-proactive#run).
+1.2.2. You can now **Run** the project, just follow the [next section](#run).
 
 #### Run
 
