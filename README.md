@@ -187,7 +187,7 @@ For more information about the [MIDA](https://mida-project.github.io/) project j
 
 ### License
 
-Copyright &copy; 2023 [Instituto Superior Técnico](http://tecnico.ulisboa.pt/)
+Copyright &copy; 2021 [Instituto Superior Técnico](http://tecnico.ulisboa.pt/)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
