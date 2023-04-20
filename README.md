@@ -1,4 +1,4 @@
-# Assertive and Proactive Prototype 
+# Assertive and Proactive Prototype
 
 <img src="https://github.com/MIMBCD-UI/prototype-multi-modality/blob/master/assets/banner.png?raw=true"/>
 
