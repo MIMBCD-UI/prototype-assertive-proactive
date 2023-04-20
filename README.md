@@ -1,4 +1,4 @@
-# Lesion Bounding Boxes (BBs) Prototype
+# Assertive and Proactive Prototype 
 
 <img src="https://github.com/MIMBCD-UI/prototype-multi-modality/blob/master/assets/banner.png?raw=true"/>
 
@@ -7,7 +7,7 @@
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
 [![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/opprGroup)
 
-In this repository, we aim to develop a prototype to test and validate the Bounding Boxes (BBs) of lesion contours within several diagnostic scenarios across medical imaging technologies. The prototype is based on an early developed version of the [Breast Screening Prototype](https://github.com/MIMBCD-UI/prototype-breast-screening). To test and validate the prototype, initial [User Research](https://github.com/mida-project/meta/wiki/User-Research) studies with the prototype are [linked](https://github.com/MIMBCD-UI/meta/wiki/User-Research#test-10-pre-master-thesis-). A number of advantages over the introduction of our novel proposed type of interactive techniques appear to be present. Furthermore, we develop the prototype under the [MIDA](https://mida-project.github.io/). The [MIDA](https://mida-project.github.io/) project is a research project that deals with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network). These deep networks will incorporate information from several different modes by a User Interface (UI) implemented based on our later [prototypes](https://github.com/mida-project/meta/wiki/Prototypes). We also have several demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCGSCL9RETBck4cwP4iJzQXQ), please follow us.
+Welcome to the results repository for our paper "[*Assertiveness-based Agent Communication for a Personalized Medicine on Medical Imaging Diagnosis*](https://doi.org/10.1145/3544548.3580682)" ([10.1145/3544548.3580682](https://doi.org/10.1145/3544548.3580682)) in [proceedings of the 2023 CHI Conference on Human Factors in Computing Systems](https://dl.acm.org/doi/proceedings/10.1145/3544548) ([CHI '23](https://chi2023.acm.org/)) presented during the "[AI in Health](https://programs.sigchi.org/chi/2023/program/session/97368)" track. In this repository, we aim to develop a prototype of the assertive and proactive trial for the [Assertiveness-based BreastScreening-AI](https://doi.org/10.1145/3544548.3580682) condition. The prototype is based on an early developed version of the [BreastScreening](https://github.com/MIMBCD-UI/prototype-breast-screening) prototype. To test and validate the prototype, initial [User Research](https://github.com/mida-project/meta/wiki/User-Research) studies with the prototype are [linked](https://github.com/MIMBCD-UI/meta/wiki/User-Research#test-11-assertiveness-based-assistant-pre-master-thesis-of-jo%C3%A3o-fernandes-) ([10.13140/RG.2.2.22989.92645/1](http://dx.doi.org/10.13140/RG.2.2.22989.92645/1)). A number of advantages over the introduction of our novel proposed type of interactive techniques appear to be evident. Furthermore, we develop the prototype the [MIDA](https://mida-project.github.io/) project as well. The [MIDA](https://mida-project.github.io/) project is a research project that deals with the use of a recently proposed technique in literature: [Deep Convolutional Neural Networks (CNNs)](https://en.wikipedia.org/wiki/Convolutional_neural_network). These deep networks will incorporate information from several different modes by a User Interface (UI) implemented based on our later [prototypes](https://github.com/mida-project/meta/wiki/Prototypes). We also have several [channels](https://github.com/MIMBCD-UI/meta/wiki/Channels) and demos to see in our [YouTube Channel](https://www.youtube.com/channel/UCPz4aTIVHekHXTxHTUOLmXw), please follow us!
 
 <a href="https://www.patreon.com/oppr" target="_blank">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
@@ -45,7 +45,7 @@ cd dicom-server/
 npm install
 ```
 
-1.2.2. You can now **Run** the project, just follow the [next section](https://github.com/mida-project/prototype-lesion-bbs#run).
+1.2.2. You can now **Run** the project, just follow the [next section](https://github.com/MIMBCD-UI/prototype-assertive-proactive#run).
 
 #### Run
 
@@ -81,20 +81,20 @@ NOTE: If you need some help see the [Demo](https://youtu.be/tkzpT3KpY2A).
 
 ### Main Server
 
-Our main server uses [NodeJS](https://nodejs.org/en/) and has several [dependencies](https://github.com/mida-project/prototype-lesion-bbs/blob/master/package.json). For the following steps you must have already installed both [NodeJS](https://nodejs.org/en/) and [`npm`](https://www.npmjs.com/) in your machine.
+Our main server uses [NodeJS](https://nodejs.org/en/) and has several [dependencies](package.json). For the following steps you must have already installed both [NodeJS](https://nodejs.org/en/) and [`npm`](https://www.npmjs.com/) in your machine.
 
 #### Clone
 
 2.1.1. Clone the project repository:
 
 ```
-git clone git@github.com:mida-project/prototype-lesion-bbs.git
+git clone git@github.com:MIMBCD-UI/prototype-assertive-proactive.git
 ```
 
 2.1.2. Go inside the project folder:
 
 ```
-cd prototype-lesion-bbs/
+cd prototype-assertive-proactive/
 ```
 
 #### Install
@@ -105,7 +105,7 @@ cd prototype-lesion-bbs/
 npm install
 ```
 
-2.2.2. You can now **Run** the project, just follow the [next section](https://github.com/mida-project/prototype-lesion-bbs#run).
+2.2.2. You can now **Run** the project, just follow the [next section](#run).
 
 #### Run
 
