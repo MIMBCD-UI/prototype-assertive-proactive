@@ -1,0 +1,76 @@
+{
+    "studyList": [
+        {
+            "patientName": "Anonymized2",
+            "patientId": "6e4da81a-7e91-4c09-9bd0-3fd4f24245e1",
+            "studyDate": "",
+            "modality": "Mamografia",
+            "studyDescription": "Mamografia",
+            "numImages": 4,
+            "studyId": "6e4da81a-7e91-4c09-9bd0-3fd4f24245e1"
+        },
+        {
+            "patientName": "Anonymized19",
+            "patientId": "acad98af-6aec-4f9d-a2ee-793aeed4fe57",
+            "studyDate": "",
+            "modality": "Mamografia",
+            "studyDescription": "Mamografia",
+            "numImages": 4,
+            "studyId": "acad98af-6aec-4f9d-a2ee-793aeed4fe57"
+        },
+        {
+            "patientName": "Anonymized34",
+            "patientId": "00c862f7-f081-41a3-85ba-daf14328b0a9",
+            "studyDate": "",
+            "modality": "MAMA^ROTINA",
+            "studyDescription": "MAMA^ROTINA",
+            "numImages": 176,
+            "studyId": "00c862f7-f081-41a3-85ba-daf14328b0a9"
+        },
+        {
+            "patientName": "Anonymized35",
+            "patientId": "e4cbfa1e-4a68-4a3c-bf2e-7a25c52d1b00",
+            "studyDate": "",
+            "modality": "Breast",
+            "studyDescription": "Breast",
+            "numImages": 1,
+            "studyId": "e4cbfa1e-4a68-4a3c-bf2e-7a25c52d1b00"
+        },
+        {
+            "patientName": "Anonymized8",
+            "patientId": "e1f2962b-4755-4043-ba82-58a6d4041f9a",
+            "studyDate": "",
+            "modality": "Mamografia",
+            "studyDescription": "Mamografia",
+            "numImages": 4,
+            "studyId": "e1f2962b-4755-4043-ba82-58a6d4041f9a"
+        },
+        {
+            "patientName": "Anonymized33",
+            "patientId": "8af60052-f003-474a-8f19-6321cac6bcf0",
+            "studyDate": "",
+            "modality": "Breast",
+            "studyDescription": "Breast",
+            "numImages": 1,
+            "studyId": "8af60052-f003-474a-8f19-6321cac6bcf0"
+        },
+        {
+            "patientName": "Anonymized16",
+            "patientId": "8a34aadb-44f0-4c25-abf6-27fcceec1f95",
+            "studyDate": "",
+            "modality": "MAMA^ROTINA",
+            "studyDescription": "MAMA^ROTINA",
+            "numImages": 246,
+            "studyId": "8a34aadb-44f0-4c25-abf6-27fcceec1f95"
+        },
+        {
+            "patientName": "Anonymized21",
+            "patientId": "ea494084-107c-4d7f-908c-6e377dda6d4c",
+            "studyDate": "",
+            "modality": "Screening-Bilateral Mammography",
+            "studyDescription": "Screening-Bilateral Mammography",
+            "numImages": 4,
+            "studyId": "ea494084-107c-4d7f-908c-6e377dda6d4c"
+        }
+    ]
+}

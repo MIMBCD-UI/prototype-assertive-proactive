@@ -25,6 +25,7 @@
     "build:local": "webpack -p &",
     "build:multi": "webpack -p &",
     "build:uta11": "webpack --mode production --env production &",
+    "build:demoiti": "webpack --mode production --env production &",
     "build:eia": "webpack --mode production --env production &",
     "create:sl": "touch src/common/studyList.json",
     "clean:dataset": "rimraf dataset/*",
@@ -39,6 +40,7 @@
     "start:local": "npm run build:local && npm run server && start:webdash",
     "start:multi": "npm run build:multi && npm run server && start:webdash",
     "start:uta11": "npm run build:uta11 && npm run server && start:webdash",
+    "start:demoiti": "npm run build:demoiti && npm run server && start:webdash",
     "start:eia": "npm run build:eia && npm run server && start:webdash",
     "start": "npm run server"
   },
